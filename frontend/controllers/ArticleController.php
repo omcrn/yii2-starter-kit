@@ -2,8 +2,8 @@
 
 namespace frontend\controllers;
 
-use common\models\Article;
-use common\models\ArticleAttachment;
+use centigen\i18ncontent\models\Article;
+use centigen\i18ncontent\models\ArticleAttachment;
 use frontend\models\search\ArticleSearch;
 use Yii;
 use yii\web\Controller;

@@ -5,10 +5,10 @@ namespace backend\models\search;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use common\models\WidgetCarousel;
+use centigen\i18ncontent\models\WidgetCarousel;
 
 /**
- * WidgetCarouselSearch represents the model behind the search form about `common\models\WidgetCarousel`.
+ * WidgetCarouselSearch represents the model behind the search form about `centigen\i18ncontent\models\WidgetCarousel`.
  */
 class WidgetCarouselSearch extends WidgetCarousel
 {

@@ -1,6 +1,6 @@
 <?php
 /* @var $this yii\web\View */
-/* @var $model common\models\WidgetCarousel */
+/* @var $model centigen\i18ncontent\models\WidgetCarousel */
 
 $this->title = Yii::t('backend', 'Create {modelClass}', [
     'modelClass' => 'Widget Carousel',

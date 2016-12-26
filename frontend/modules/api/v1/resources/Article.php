@@ -9,7 +9,7 @@ use yii\web\Link;
 /**
  * @author Eugene Terentev <eugene@terentev.net>
  */
-class Article extends \common\models\Article implements Linkable
+class Article extends \centigen\i18ncontent\models\Article implements Linkable
 {
     public function fields()
     {

@@ -1,7 +1,7 @@
 <?php
 
 use common\grid\EnumColumn;
-use common\models\ArticleCategory;
+use centigen\i18ncontent\models\ArticleCategory;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\grid\GridView;

@@ -2,9 +2,9 @@
 
 namespace backend\controllers;
 
-use common\models\WidgetCarousel;
+use centigen\i18ncontent\models\WidgetCarousel;
 use Yii;
-use common\models\WidgetCarouselItem;
+use centigen\i18ncontent\models\WidgetCarouselItem;
 use backend\models\search\WidgetCarouselItemSearch;
 use yii\web\Controller;
 use yii\web\HttpException;

@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model common\models\WidgetText */
+/* @var $model centigen\i18ncontent\models\WidgetText */
 
 $this->title = Yii::t('backend', 'Update {modelClass}: ', [
     'modelClass' => 'Text Block',

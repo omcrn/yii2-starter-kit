@@ -8,5 +8,5 @@ use yii\test\ActiveFixture;
  */
 class ArticleCategoryFixture extends ActiveFixture
 {
-    public $modelClass = 'common\models\ArticleCategory';
+    public $modelClass = 'centigen\i18ncontent\models\ArticleCategory';
 }

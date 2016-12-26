@@ -6,7 +6,7 @@
  * Time: 10:46 AM
  */
 
-namespace common\models\query;
+namespace centigen\i18ncontent\models\query;
 
 use yii\db\ActiveQuery;
 

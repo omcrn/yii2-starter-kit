@@ -4,8 +4,8 @@ namespace backend\controllers;
 
 use backend\models\search\WidgetCarouselItemSearch;
 use Yii;
-use common\models\WidgetCarousel;
-use common\models\WidgetCarouselItem;
+use centigen\i18ncontent\models\WidgetCarousel;
+use centigen\i18ncontent\models\WidgetCarouselItem;
 use backend\models\search\WidgetCarouselSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;

@@ -1,7 +1,7 @@
 <?php
 /**
  * @var $this yii\web\View
- * @var $model common\models\Article
+ * @var $model centigen\i18ncontent\models\Article
  */
 use yii\helpers\Html;
 

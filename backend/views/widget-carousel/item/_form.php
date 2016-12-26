@@ -4,7 +4,7 @@ use yii\bootstrap\ActiveForm;
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model common\models\WidgetCarouselItem */
+/* @var $model centigen\i18ncontent\models\WidgetCarouselItem */
 /* @var $form yii\bootstrap\ActiveForm */
 ?>
 

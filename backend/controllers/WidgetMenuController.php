@@ -3,7 +3,7 @@
 namespace backend\controllers;
 
 use Yii;
-use common\models\WidgetMenu;
+use centigen\i18ncontent\models\WidgetMenu;
 use backend\models\search\WidgetMenuSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;

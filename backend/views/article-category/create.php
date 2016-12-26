@@ -1,7 +1,7 @@
 <?php
 /* @var $this yii\web\View */
-/* @var $model common\models\ArticleCategory */
-/* @var $categories common\models\ArticleCategory[] */
+/* @var $model centigen\i18ncontent\models\ArticleCategory */
+/* @var $categories centigen\i18ncontent\models\ArticleCategory[] */
 
 $this->title = Yii::t('backend', 'Create {modelClass}', [
     'modelClass' => 'Article Category',

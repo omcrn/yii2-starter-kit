@@ -5,10 +5,10 @@ namespace backend\models\search;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use common\models\Article;
+use centigen\i18ncontent\models\Article;
 
 /**
- * ArticleSearch represents the model behind the search form about `common\models\Article`.
+ * ArticleSearch represents the model behind the search form about `centigen\i18ncontent\models\Article`.
  */
 class ArticleSearch extends Article
 {

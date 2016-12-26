@@ -1,6 +1,6 @@
 <?php
 /* @var $this yii\web\View */
-/* @var $model common\models\WidgetMenu */
+/* @var $model centigen\i18ncontent\models\WidgetMenu */
 
 $this->title = Yii::t('backend', 'Create {modelClass}', [
     'modelClass' => 'Widget Menu',

@@ -2,12 +2,12 @@
 
 namespace frontend\models\search;
 
-use common\models\Article;
+use centigen\i18ncontent\models\Article;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 
 /**
- * ArticleSearch represents the model behind the search form about `common\models\Article`.
+ * ArticleSearch represents the model behind the search form about `centigen\i18ncontent\models\Article`.
  */
 class ArticleSearch extends Article
 {

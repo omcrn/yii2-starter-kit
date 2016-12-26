@@ -4,7 +4,7 @@ use yii\grid\GridView;
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model common\models\WidgetCarousel */
+/* @var $model centigen\i18ncontent\models\WidgetCarousel */
 
 $this->title = Yii::t('backend', 'Update {modelClass}: ', [
     'modelClass' => 'Widget Carousel',

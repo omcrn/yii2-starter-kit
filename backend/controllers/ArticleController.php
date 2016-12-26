@@ -3,9 +3,9 @@
 namespace backend\controllers;
 
 use Yii;
-use common\models\Article;
+use centigen\i18ncontent\models\Article;
 use backend\models\search\ArticleSearch;
-use \common\models\ArticleCategory;
+use \centigen\i18ncontent\models\ArticleCategory;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

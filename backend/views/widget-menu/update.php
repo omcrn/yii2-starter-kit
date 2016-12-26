@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model common\models\WidgetMenu */
+/* @var $model centigen\i18ncontent\models\WidgetMenu */
 
 $this->title = Yii::t('backend', 'Update {modelClass}: ', [
     'modelClass' => 'Widget Menu',

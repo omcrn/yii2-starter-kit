@@ -38,6 +38,10 @@ class AppController extends Controller
         $this->runAction('set-keys', ['interactive' => $this->interactive]);
         \Yii::$app->runAction('migrate/up', ['interactive' => $this->interactive]);
         \Yii::$app->runAction('rbac-migrate/up', ['interactive' => $this->interactive]);
+        \Yii::$app->runAction('migrate/up', [
+            'interactive' => $this->interactive,
+            'migrationPath' => '@vendor/omcrn/yii2-i18ncontent/migrations'
+        ]);
     }
 
     public function actionSetWritable()

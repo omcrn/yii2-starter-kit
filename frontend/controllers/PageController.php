@@ -9,7 +9,7 @@
 namespace frontend\controllers;
 
 use Yii;
-use common\models\Page;
+use centigen\i18ncontent\models\Page;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 

@@ -1,6 +1,6 @@
 <?php
 /* @var $this yii\web\View */
-/* @var $model common\models\Page */
+/* @var $model centigen\i18ncontent\models\Page */
 
 $this->title = Yii::t('backend', 'Create {modelClass}', [
     'modelClass' => 'Page',

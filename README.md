@@ -1,23 +1,11 @@
 # Yii 2 Starter Kit
 
-<!-- BADGES/ -->
-
-[![Packagist](https://img.shields.io/packagist/v/trntv/yii2-starter-kit.svg)](https://packagist.org/packages/trntv/yii2-starter-kit)
-[![Packagist](https://img.shields.io/packagist/dt/trntv/yii2-starter-kit.svg)](https://packagist.org/packages/trntv/yii2-starter-kit)
-[![PayPal donate button](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=X7UFA3F3ALPM8 "Donate once-off to this project using Paypal")
-[![Dependency Status](https://www.versioneye.com/php/trntv:yii2-starter-kit/badge.svg)](https://www.versioneye.com/php/trntv:yii2-starter-kit)
-[![Build Status](https://travis-ci.org/trntv/yii2-starter-kit.svg?branch=master)](https://travis-ci.org/trntv/yii2-starter-kit)
-
-<!-- /BADGES -->
 
 This is Yii2 start application template.
 
 It was created and developing as a fast start for building an advanced sites based on Yii2. 
 
 It covers typical use cases for a new project and will help you not to waste your time doing the same work in every project
-
-## Before you start
-Please, consider helping project via [contributions](https://github.com/trntv/yii2-starter-kit/issues) or [donations](#donations). 
 
 ## TABLE OF CONTENTS
 - [Demo](#demo)
@@ -34,32 +22,6 @@ Please, consider helping project via [contributions](https://github.com/trntv/yi
 - [Donations](#donations)
 - [Have any questions](#have-any-questions)
 
-##DEMO
-Demo is hosted by awesome [Digital Ocean](https://m.do.co/c/d7f000191ea8)
-
-Frontend:
-http://yii2-starter-kit.terentev.net
-
-Backend:
-http://backend.yii2-starter-kit.terentev.net
-
-`administrator` role account
-```
-Login: webmaster
-Password: webmaster
-```
-
-`manager` role account
-```
-Login: manager
-Password: manager
-```
-
-`user` role account
-```
-Login: user
-Password: user
-```
 
 ## FEATURES
 - Beautiful and open source dashboard theme for backend [AdminLTE 2](http://almsaeedstudio.com/AdminLTE)
@@ -319,18 +281,6 @@ public function behaviors()
         ];
     }
 ```
-
-##How to contribute?
-You can contribute in any way you want. Any help appreciated, but most of all i need help with docs (^_^)
-
-##Donations
-- [Paypal] (https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=X7UFA3F3ALPM8)
-- [Bitcoin] (https://www.coinbase.com/checkouts/2f1c1cb31c395e5aaafa1ba70003552e)
-- [WebMoney] (Z110052695454)
-- Other way: [eugene@terentev.net](mailto:eugene@terentev.net)
-
-##Have any questions?
-mail to [eugene@terentev.net](mailto:eugene@terentev.net)
 
 ##READ MORE
 https://github.com/yiisoft/yii2/blob/master/apps/advanced/README.md

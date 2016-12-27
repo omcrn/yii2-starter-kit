@@ -146,6 +146,7 @@ $config = [
             require(Yii::getAlias('@storage/config/_urlManager.php'))
         )
     ],
+    'modules' => require (__DIR__ . '/modules.php'),
     'params' => [
         'adminEmail' => env('ADMIN_EMAIL'),
         'robotEmail' => env('ROBOT_EMAIL'),

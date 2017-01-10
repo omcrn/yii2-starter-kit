@@ -16,6 +16,16 @@ $config = [
             'ruleTable' => '{{%rbac_auth_rule}}'
         ],
 
+        'assetManager' => [
+            'bundles' => [
+                'yii\bootstrap\BootstrapPluginAsset' => [
+                    'depends' => [
+                        'yii\jui\JuiAsset',
+                    ]
+                ],
+            ],
+        ],
+
         'cache' => [
             'class' => 'yii\caching\FileCache',
             'cachePath' => '@common/runtime/cache'

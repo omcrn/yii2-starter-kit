@@ -43,7 +43,7 @@ $config = [
         ],
 
         'formatter'=>[
-            'class'=>'yii\i18n\Formatter'
+            'class'=>'centigen\base\i18n\Formatter'
         ],
 
         'glide' => [

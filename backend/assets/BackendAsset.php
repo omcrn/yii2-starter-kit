@@ -25,6 +25,7 @@ class BackendAsset extends AssetBundle
     public $depends = [
         'yii\web\YiiAsset',
         'common\assets\AdminLte',
-        'common\assets\Html5shiv'
+        'common\assets\Html5shiv',
+        'yii\bootstrap\BootstrapAsset'
     ];
 }

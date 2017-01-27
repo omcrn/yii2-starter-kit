@@ -33,12 +33,6 @@ $config = [
             'as afterLogin' => 'common\behaviors\LoginTimestampBehavior'
         ],
     ],
-    'modules'=>[
-        'i18n' => [
-            'class' => 'backend\modules\i18n\Module',
-            'defaultRoute'=>'i18n-message/index'
-        ]
-    ],
     'as globalAccess'=>[
         'class'=>'\common\behaviors\GlobalAccessBehavior',
         'rules'=>[

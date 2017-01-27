@@ -40,6 +40,10 @@ class AppController extends Controller
         \Yii::$app->runAction('rbac-migrate/up', ['interactive' => $this->interactive]);
         \Yii::$app->runAction('migrate/up', [
             'interactive' => $this->interactive,
+            'migrationPath' => '@yii/i18n/migrations'
+        ]);
+        \Yii::$app->runAction('migrate/up', [
+            'interactive' => $this->interactive,
             'migrationPath' => '@vendor/omcrn/yii2-i18ncontent/migrations'
         ]);
     }

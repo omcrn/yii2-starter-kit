@@ -20,11 +20,6 @@ $this->beginContent('@frontend/views/layouts/base.php')
             ])?>
         <?php endif; ?>
 
-        <!-- Example of your ads placing -->
-        <?php echo \centigen\i18ncontent\widgets\DbText::widget([
-            'key' => 'ads-example'
-        ]) ?>
-
         <?php echo $content ?>
 
     </div>

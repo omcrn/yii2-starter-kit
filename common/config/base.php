@@ -95,7 +95,7 @@ $config = [
                         'backend'=>'backend.php',
                         'frontend'=>'frontend.php',
                     ],
-                    'on missingTranslation' => ['\backend\modules\i18n\Module', 'missingTranslation']
+                    'on missingTranslation' => ['\centigen\i18ncontent\Module', 'missingTranslation']
                 ],
                 /* Uncomment this code to use DbMessageSource
                  '*'=> [
@@ -104,7 +104,7 @@ $config = [
                     'messageTable'=>'{{%i18n_message}}',
                     'enableCaching' => YII_ENV_DEV,
                     'cachingDuration' => 3600,
-                    'on missingTranslation' => ['\backend\modules\i18n\Module', 'missingTranslation']
+                    'on missingTranslation' => ['\centigen\i18ncontent\Module', 'missingTranslation']
                 ],
                 */
             ],

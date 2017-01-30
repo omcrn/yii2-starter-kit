@@ -43,7 +43,8 @@ $config = [
         ],
 
         'formatter'=>[
-            'class'=>'centigen\base\i18n\Formatter'
+            'class'=>'centigen\base\i18n\Formatter',
+            'datetimeFormat' => 'DD/MM/YYYY HH:mm'
         ],
 
         'glide' => [
@@ -163,9 +164,7 @@ $config = [
         'availableLocales'=>[
             'en-US'=>'English (US)',
             'ru-RU'=>'Русский (РФ)',
-            'uk-UA'=>'Українська (Україна)',
-            'es' => 'Español',
-            'zh-CN' => '简体中文',
+            'ka-GE' => 'ქართული (GE)',
         ],
     ],
 ];

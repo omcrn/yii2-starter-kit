@@ -10,8 +10,8 @@ $config = [
             'disabledCommands' => ['netmount'],
             'roots' => [
                 [
-                    'baseUrl' => '@storageUrl',
-                    'basePath' => '@storage',
+                    'baseUrl' => '@storageUrl/source',
+                    'basePath' => '@storage/web/source',
                     'path'   => '/',
                     'access' => ['read' => 'manager', 'write' => 'manager']
                 ]
